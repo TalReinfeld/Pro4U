@@ -12,7 +12,7 @@
     <div>
         <div class="container">
             <div class="filters">
-                <img src="../../../images/Pro4U_logo.jpeg" width="200" height="200">
+                <img src="{% static 'img/default-profile-icon.jpg' %}" width="200" height="200">
                 <div><strong>Name:</strong> {{ profile.user_id.first_name }} {{ profile.user_id.last_name }}</div>
                 <div><strong>Email:</strong> {{ profile.user_id.email }}</div>
                 <div><strong>Phone Number:</strong> {{ profile.phone_number }}</div>
